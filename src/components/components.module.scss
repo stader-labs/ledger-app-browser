@@ -1,0 +1,71 @@
+.row{
+    width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.account{
+    overflow: hidden;
+  text-overflow: ellipsis;
+  flex-shrink: 1;
+  white-space: nowrap;
+  align-items: center;
+  font-weight: 600;
+}
+
+.account_icon{
+    margin-right: 0.4em;
+    flex-shrink: 0;
+}
+
+.account_name{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.image_container{
+  margin-right: 0.4em;
+  flex-shrink: 0;
+}
+
+.account_details{
+  flex-direction: column;
+  align-items: flex-start;
+  flex-grow: 1;
+}
+
+.account_name2{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: bold;
+}
+
+.account_address{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  opacity: 0.5;
+}
+
+.cookies_blocked{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+
+  > * + * {
+    margin-top: 24px;
+  }
+}
+
+.select{
+  width: 450px;
+  background-color: #1D1D1D;
+}
+
+.dark_text{
+  color: #F7F1FF;
+  background-color: #1D1D1D;
+}
